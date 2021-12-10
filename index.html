@@ -375,22 +375,28 @@
     </footer>
     <div class="video">
       <iframe
-        height="315"
+        id="youtube-player"
         width="560"
-        src="https://youtu.be/KkRD7e01bT4"
+        height="315"
+        src="https://www.youtube.com/embed/KkRD7e01bT4?controls=0"
         title="YouTube video player"
         frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
       <img
-        class="close"
         onclick="toggle()"
+        class="close"
         src="/static/img/icon-close-512.webp"
         alt=""
         srcset=""
       />
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="/static/js/snow.js"></script>
     <script src="/static/js/script.js"></script>
   </body>
