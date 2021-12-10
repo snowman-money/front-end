@@ -121,6 +121,8 @@ hr {
   display: flex;
   align-items: center;
   box-shadow: 6px 17px 37px 0px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
 }
 .emblem > img {
   padding: 18px;

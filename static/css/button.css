@@ -26,8 +26,9 @@
 }
 
 .btn.red {
-  width: 161px;
-  height: 48px;
+  /* width: 161px;
+  height: 48px; */
+  width: 100%;
   background: rgba(241, 41, 51, 1);
   border: 3px;
   display: flex;
@@ -38,6 +39,7 @@
   color: white;
   text-transform: uppercase;
   font-weight: 500;
+  padding: 0px 10px;
 }
 
 .btn.lred {
@@ -59,4 +61,7 @@
 }
 .ml-1 {
   margin-left: 10px;
+}
+.block {
+  width: auto;
 }
