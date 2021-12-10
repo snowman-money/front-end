@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/static/css/style.css" />
-    <title> Snowman</title>
+    <title>Snowman</title>
   </head>
   <body>
     <!-- nav bar start -->
@@ -22,8 +22,15 @@
           <div class="nav-elements">
             <ul>
               <li class="nav-element"><a href="">View Chart</a></li>
-              <li class="nav-element"><a href="">Whitepaper</a></li>
-              <li class="nav-element"><a href="">Verified Contract</a></li>
+              <li class="nav-element">
+                <a href="https://medium.com/@snowmandao">Whitepaper</a>
+              </li>
+              <li class="nav-element">
+                <a
+                  href="https://snowtrace.io/address/0x6a6fae2d14a872d2b040f880d0ecdae11c6c3033"
+                  >Verified Contract</a
+                >
+              </li>
             </ul>
           </div>
           <div class="btn float-r">Dashboard</div>
@@ -39,11 +46,17 @@
               into a Winter Wonderland!
             </p>
             <div class="hero-buttons mt-2">
-              <button class="btn blue">Discord</button>
+              <button
+                onclick="window.location.href='https://discord.gg/5fJThXRXjE'"
+                class="btn"
+              >
+                Discord
+              </button>
               <button class="btn lred ml-1">BUY NOW</button>
             </div>
             <p class="mt-2">
-              TIME’s APY is <span>76,668.7%</span> and earned by holding SNOWMAN
+              TIME’s APY is <span class="apy"><b>82,773.4%</b></span> and earned
+              by holding SNOWMAN
             </p>
           </div>
           <div class="right column">
@@ -65,7 +78,7 @@
         width="100%"
       >
         <path
-          fill="#e2faff"
+          fill="#a4f0ff"
           fill-opacity="1"
           d="M0,320L60,266.7C120,213,240,107,360,58.7C480,11,600,21,720,53.3C840,85,960,139,1080,144C1200,149,1320,107,1380,85.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
         ></path>
@@ -91,8 +104,8 @@
           <hr />
           <p>
             DAO will turn Wonderland Money into a Winter Wonderland. We want to
-            help you earn more TIME and generate <span>76,668.7% </span> just
-            for holding SNOWMAN!
+            help you earn more TIME and generate
+            <span class="apy"><b>82,773.4%</b></span> just for holding SNOWMAN!
           </p>
         </div>
         <div class="row mb-8">
@@ -102,7 +115,9 @@
                 <div class="emblem">
                   <img src="/static/img/coin.svg" alt="" />
                 </div>
-                <button class="btn red mt-2">HOW TO BUY</button>
+                <button onclick="toggle()" class="btn red mt-2">
+                  HOW TO BUY
+                </button>
               </div>
             </div>
           </div>
@@ -319,7 +334,12 @@
           <h1 class="">Buy Now !!</h1>
           <p class="mt-1">Join Snowman and start earning</p>
           <div class="d-flex justify-c mt-2">
-            <button class="btn blue">Discord</button>
+            <button
+              onclick="window.location.href='https://discord.gg/5fJThXRXjE'"
+              class="btn blue"
+            >
+              Discord
+            </button>
             <button class="btn lred ml-1">BUY NOW</button>
           </div>
         </center>
@@ -329,20 +349,44 @@
       <div class="container d-flex">
         <img src="/static/img/snowman-w-logo.svg" alt="" srcset="" />
         <ul class="d-flex menu">
-          <li><a href="">contract</a></li>
+          <li>
+            <a
+              href="https://snowtrace.io/address/0x6a6fae2d14a872d2b040f880d0ecdae11c6c3033"
+              >contract</a
+            >
+          </li>
           <li><a href="">liquidity</a></li>
-          <li><a href="">whitepaper</a></li>
+          <li><a href="https://medium.com/@snowmandao">whitepaper</a></li>
         </ul>
-        <ul class="d-flex social">
+        <!-- <ul class="d-flex social">
           <li>
             <a href=""> <i class="fab fa-twitter"></i></a>
           </li>
           <li>
             <a href=""> <i class="fab fa-telegram"></i></a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </footer>
+    <div class="video">
+      <iframe
+        height="315"
+        width="560"
+        src="https://www.youtube.com/embed/J_i1XQmp0e0"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <img
+        class="close"
+        onclick="toggle()"
+        src="/static/img/icon-close-512.webp"
+        alt=""
+        srcset=""
+      />
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/static/js/snow.js"></script>
     <script src="/static/js/script.js"></script>
   </body>
 </html>
