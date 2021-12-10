@@ -1,0 +1,62 @@
+/* button code */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&display=swap");
+.btn {
+  width: 161px;
+  height: 48px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  border: solid 3px rgba(128, 128, 128, 0.521);
+  border-radius: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn.blue {
+  width: 161px;
+  height: 48px;
+  background: rgba(110, 232, 255, 1);
+  display: flex;
+  justify-content: center;
+  background-clip: padding-box;
+  border: solid 3px;
+  border-color: rgb(105, 210, 231);
+  border-radius: 20px;
+  align-items: center;
+}
+
+.btn.red {
+  width: 161px;
+  height: 48px;
+  background: rgba(241, 41, 51, 1);
+  border: 3px;
+  display: flex;
+  justify-content: center;
+  border: solid 3px rgb(212, 36, 45);
+  border-radius: 20px;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn.lred {
+  width: 161px;
+  height: 48px;
+  background: #ff7475;
+  position: relative;
+  border: solid 3px;
+  border-color: #e76a6a;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
