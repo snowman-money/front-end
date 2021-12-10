@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/static/css/style.css" />
-    <title> Snowman</title>
+    <title>Snowman</title>
   </head>
   <body>
     <!-- nav bar start -->
@@ -22,7 +22,9 @@
           <div class="nav-elements">
             <ul>
               <li class="nav-element"><a href="">View Chart</a></li>
-              <li class="nav-element"><a href="">Whitepaper</a></li>
+              <li class="nav-element">
+                <a href="https://medium.com/@snowmandao">Whitepaper</a>
+              </li>
               <li class="nav-element"><a href="">Verified Contract</a></li>
             </ul>
           </div>
@@ -39,7 +41,12 @@
               into a Winter Wonderland!
             </p>
             <div class="hero-buttons mt-2">
-              <button class="btn blue">Discord</button>
+              <button
+                onclick="window.location.href='https://discord.gg/5fJThXRXjE'"
+                class="btn blue"
+              >
+                Discord
+              </button>
               <button class="btn lred ml-1">BUY NOW</button>
             </div>
             <p class="mt-2">
@@ -102,7 +109,9 @@
                 <div class="emblem">
                   <img src="/static/img/coin.svg" alt="" />
                 </div>
-                <button class="btn red mt-2">HOW TO BUY</button>
+                <button onclick="toggle()" class="btn red mt-2">
+                  HOW TO BUY
+                </button>
               </div>
             </div>
           </div>
@@ -319,7 +328,12 @@
           <h1 class="">Buy Now !!</h1>
           <p class="mt-1">Join Snowman and start earning</p>
           <div class="d-flex justify-c mt-2">
-            <button class="btn blue">Discord</button>
+            <button
+              onclick="window.location.href='https://discord.gg/5fJThXRXjE'"
+              class="btn blue"
+            >
+              Discord
+            </button>
             <button class="btn lred ml-1">BUY NOW</button>
           </div>
         </center>
@@ -331,18 +345,36 @@
         <ul class="d-flex menu">
           <li><a href="">contract</a></li>
           <li><a href="">liquidity</a></li>
-          <li><a href="">whitepaper</a></li>
+          <li><a href="https://medium.com/@snowmandao">whitepaper</a></li>
         </ul>
-        <ul class="d-flex social">
+        <!-- <ul class="d-flex social">
           <li>
             <a href=""> <i class="fab fa-twitter"></i></a>
           </li>
           <li>
             <a href=""> <i class="fab fa-telegram"></i></a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </footer>
+    <div class="video">
+      <iframe
+        height="315"
+        width="560"
+        src="https://www.youtube.com/embed/J_i1XQmp0e0"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <img
+        class="close"
+        onclick="toggle()"
+        src="/static/img/icon-close-512.webp"
+        alt=""
+        srcset=""
+      />
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/static/js/script.js"></script>
   </body>
 </html>
