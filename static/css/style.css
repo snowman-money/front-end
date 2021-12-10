@@ -45,7 +45,7 @@ h1 {
 }
 
 .section-1 {
-  background-color: #e2faff;
+  background-color: #a4f0ff;
 }
 .content > .left > h1 {
   max-width: 535px;
@@ -270,4 +270,7 @@ tr {
 .video.active {
   visibility: visible;
   opacity: 1;
+}
+.apy {
+  color: #f55c22;
 }
